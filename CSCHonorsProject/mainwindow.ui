@@ -24,20 +24,20 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="loginRegisterPage">
      <widget class="QLineEdit" name="nameInput">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>90</y>
+        <x>170</x>
+        <y>190</y>
         <width>113</width>
         <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>nameInput</string>
+       <string/>
       </property>
       <property name="placeholderText">
        <string>Enter your name</string>
@@ -46,14 +46,14 @@
      <widget class="QLineEdit" name="emailInput">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>160</y>
+        <x>460</x>
+        <y>190</y>
         <width>113</width>
         <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>emailInput</string>
+       <string/>
       </property>
       <property name="placeholderText">
        <string>Enter your email</string>
@@ -62,8 +62,8 @@
      <widget class="QPushButton" name="loginButton">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>250</y>
+        <x>310</x>
+        <y>320</y>
         <width>141</width>
         <height>24</height>
        </rect>
@@ -88,7 +88,34 @@
     </widget>
     <widget class="QWidget" name="leaderboardPage"/>
     <widget class="QWidget" name="badgesPage"/>
-    <widget class="QWidget" name="homepagePage"/>
+    <widget class="QWidget" name="homepagePage">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>BMCC GREEN BLUE BROWN</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LOGINPAGE">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>20</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="missionsPage"/>
    </widget>
   </widget>

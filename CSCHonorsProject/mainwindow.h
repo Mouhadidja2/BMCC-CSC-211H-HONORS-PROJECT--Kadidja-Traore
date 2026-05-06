@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 
+#include "backend/EcoStudent.h"
+#include "backend/MissionManager.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -15,9 +18,18 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow() override;
+    ~MainWindow();
 
 private:
     Ui::MainWindow *ui;
+
+    EcoStudent currentStudent;
+    MissionManager missionManager;
+
+    void loadMissionsToUI();
+    void refreshHomepage();
+    void refreshBadges();
+    void refreshLeaderboard();
 };
+
 #endif // MAINWINDOW_H

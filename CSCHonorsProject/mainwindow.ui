@@ -17,23 +17,26 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>-10</x>
+      <y>20</y>
       <width>791</width>
       <height>561</height>
      </rect>
     </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="loginRegisterPage">
      <widget class="QLineEdit" name="nameInput">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>100</x>
         <y>190</y>
-        <width>113</width>
-        <height>21</height>
+        <width>191</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
@@ -46,10 +49,10 @@
      <widget class="QLineEdit" name="emailInput">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>480</x>
         <y>190</y>
-        <width>113</width>
-        <height>21</height>
+        <width>181</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
@@ -62,10 +65,10 @@
      <widget class="QPushButton" name="loginButton">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>280</x>
         <y>320</y>
-        <width>141</width>
-        <height>24</height>
+        <width>181</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="text">
@@ -85,38 +88,310 @@
        <string/>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="leaderboardPage"/>
-    <widget class="QWidget" name="badgesPage"/>
-    <widget class="QWidget" name="homepagePage">
-     <widget class="QPlainTextEdit" name="plainTextEdit">
+     <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>171</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="plainText">
-       <string>BMCC GREEN BLUE BROWN</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="LOGINPAGE">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>20</y>
-        <width>75</width>
-        <height>24</height>
+        <x>290</x>
+        <y>30</y>
+        <width>341</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>BMCC GREEN BLUE BROWN </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>470</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="missionsPage"/>
+    <widget class="QWidget" name="leaderboardPage">
+     <widget class="QPushButton" name="backFromLeaderboardButton">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>460</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back to Homepage</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="leaderboardTableWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>61</y>
+        <width>711</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="columnCount">
+       <number>8</number>
+      </property>
+      <column>
+       <property name="text">
+        <string>Rank</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Points</string>
+       </property>
+      </column>
+      <column/>
+      <column/>
+      <column/>
+      <column/>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>470</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="badgesPage">
+     <widget class="QListWidget" name="badgesListWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>701</width>
+        <height>331</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backFromBadgesButton">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>440</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back to Homepage</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>460</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="homepagePage">
+     <widget class="QPushButton" name="missionsButton">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>20</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Missions</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="leaderboardButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>20</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Leaderboard</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="badgesButton">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>20</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Badges</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pointsLabel">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>30</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Points</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="welcomeLabel">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>130</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Welcome to BMCC GREEN BLUE BROWN </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>BMCC GREEN BLUE BROWN </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>480</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="missionsPage">
+     <widget class="QPushButton" name="completeMissionButton">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>310</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Complete Mission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backFromMissionsButton">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>450</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back to Homepage</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="missionsListWidget">
+      <property name="geometry">
+       <rect>
+        <x>85</x>
+        <y>30</y>
+        <width>611</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>460</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

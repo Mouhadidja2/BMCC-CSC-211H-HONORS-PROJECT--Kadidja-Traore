@@ -34,7 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
         " font-weight: bold;"
         "}"
 
-        "QPushButton:hover {"
+        "QPushButton:hover {FileManager::saveStudent(currentStudent);"
         " background-color: #40916C;"
         "}"
 

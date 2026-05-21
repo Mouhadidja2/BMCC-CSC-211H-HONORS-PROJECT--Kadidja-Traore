@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
 #include "backend/EcoStudent.h"
 #include "backend/MissionManager.h"
 
@@ -30,6 +29,11 @@ private:
     void refreshHomepage();
     void refreshBadges();
     void refreshLeaderboard();
+    bool quizCompleted = false;
+    int currentQuizQuestion = 0;
+    int quizScore = 0;
+
+    void loadQuizQuestion();
 };
 
 #endif // MAINWINDOW_H

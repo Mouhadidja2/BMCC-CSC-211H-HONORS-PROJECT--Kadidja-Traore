@@ -27,7 +27,7 @@
      <number>1</number>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="loginRegisterPage">
      <widget class="QLineEdit" name="nameInput">
@@ -35,8 +35,8 @@
        <rect>
         <x>100</x>
         <y>190</y>
-        <width>191</width>
-        <height>51</height>
+        <width>221</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="text">
@@ -49,10 +49,10 @@
      <widget class="QLineEdit" name="emailInput">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>440</x>
         <y>190</y>
-        <width>181</width>
-        <height>51</height>
+        <width>221</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="text">
@@ -65,8 +65,8 @@
      <widget class="QPushButton" name="loginButton">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>320</y>
+        <x>290</x>
+        <y>390</y>
         <width>181</width>
         <height>71</height>
        </rect>
@@ -91,9 +91,9 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>290</x>
-        <y>30</y>
-        <width>341</width>
+        <x>310</x>
+        <y>20</y>
+        <width>421</width>
         <height>61</height>
        </rect>
       </property>
@@ -106,6 +106,25 @@
        <rect>
         <x>220</x>
         <y>470</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>90</y>
         <width>321</width>
         <height>16</height>
        </rect>
@@ -240,10 +259,10 @@
      <widget class="QPushButton" name="missionsButton">
       <property name="geometry">
        <rect>
-        <x>370</x>
-        <y>20</y>
-        <width>111</width>
-        <height>51</height>
+        <x>410</x>
+        <y>100</y>
+        <width>151</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="text">
@@ -253,10 +272,10 @@
      <widget class="QPushButton" name="leaderboardButton">
       <property name="geometry">
        <rect>
-        <x>200</x>
-        <y>20</y>
-        <width>131</width>
-        <height>51</height>
+        <x>230</x>
+        <y>100</y>
+        <width>141</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="text">
@@ -266,10 +285,10 @@
      <widget class="QPushButton" name="badgesButton">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>20</y>
-        <width>111</width>
-        <height>51</height>
+        <x>610</x>
+        <y>100</y>
+        <width>141</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="text">
@@ -279,8 +298,8 @@
      <widget class="QLabel" name="pointsLabel">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>30</y>
+        <x>580</x>
+        <y>20</y>
         <width>111</width>
         <height>16</height>
        </rect>
@@ -292,8 +311,8 @@
      <widget class="QLabel" name="welcomeLabel">
       <property name="geometry">
        <rect>
-        <x>270</x>
-        <y>130</y>
+        <x>280</x>
+        <y>210</y>
         <width>281</width>
         <height>61</height>
        </rect>
@@ -305,9 +324,9 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>10</y>
-        <width>171</width>
+        <x>310</x>
+        <y>0</y>
+        <width>691</width>
         <height>51</height>
        </rect>
       </property>
@@ -320,6 +339,207 @@
        <rect>
         <x>230</x>
         <y>480</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="quizButton">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>100</y>
+        <width>151</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Environment Quiz</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="UNenvironmentgoals">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>350</y>
+        <width>201</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;a href=&quot;https://sdgs.un.org/goals/goal11&quot;&gt; UN Sustainable Cities&lt;/a&gt;</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::TextFormat::RichText</enum>
+      </property>
+      <property name="openExternalLinks">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>350</y>
+        <width>131</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;a href=&quot;https://sdgs.un.org/goals/goal13&quot;&gt; Climate Action&lt;/a&gt;</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::TextFormat::RichText</enum>
+      </property>
+      <property name="openExternalLinks">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="quizPage">
+     <widget class="QLabel" name="quizQuestionLabel">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>QUIZ QUESTIONS</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="answerAButton">
+      <property name="geometry">
+       <rect>
+        <x>58</x>
+        <y>170</y>
+        <width>471</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="answerBButton">
+      <property name="geometry">
+       <rect>
+        <x>58</x>
+        <y>210</y>
+        <width>441</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="answerCButton">
+      <property name="geometry">
+       <rect>
+        <x>58</x>
+        <y>250</y>
+        <width>441</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="quizResultLabel">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>-20</y>
+        <width>201</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>QUIZ RESULT </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backFromQuizButton">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>450</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back from quiz</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="submitQuizButton">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>330</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>490</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>-60</x>
+        <y>50</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1000</number>
+      </property>
+      <property name="text">
+       <string>🌿 🌱 🍃 🌎 🌿 🌱 🍃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>200</y>
         <width>321</width>
         <height>16</height>
        </rect>

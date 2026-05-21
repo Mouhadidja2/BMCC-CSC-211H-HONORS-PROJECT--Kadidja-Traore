@@ -2,7 +2,7 @@
 "BMCC Green blue brown" would be a C++ Qt GUI application that turns sustainability into a structured game. Students log in, receive eco missions (recycling, planting, volunteering, reducing waste....), complete them to earn points, and unlock rewards such as badges. If they reach a certain amount of points or complete specific missions like volunteering to help clean the school, they could receive extra curricular credit. A leaderboard also to foster friendly competition. My solution uses gamification to help students build lasting sustainable habits. By completing eco friendly missions and seeing their impact, students become more aware and engaged in making the campus greener. Over time, this awareness and behavior change can extend beyond school, shaping them into citizens who understand how their daily choices affect the environment and who carry these positive habits into their society.
 
 
-# Inspiration for Food4All
+# Inspiration for BMCC GREEN BLUE BROWN
 Many students are unaware of the environmental impact of their daily actions such as using single use plastics, food waste, improper recycling, excessive paper consumption and more . There is a lack of information, awareness, guidance, motivation, and a centralized platform to track and reward sustainable behavior to encourage students to be more green. This results in low engagement with campus environmental initiatives and missed opportunities for waste reduction.
 
 # Project Description and usage
